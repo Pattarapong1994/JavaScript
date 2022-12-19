@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+section {
+    border-top: 1px solid #ebebeb;
+    color: #767676;
+
+    padding: 50px;
+    text-align: center;
+}
+
+img {
+    width: 90vw;
+    height: 80vh;
+
+    object-fit: cover;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+    opacity: 0;
+    transform: translateY(25px);
+    transition: 0.4s all linear;
+}
+
+.text > h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.text > p {
+    color: #888888;
+    text-align: left;
+    font-size: 18px;
+    
+    margin: 0;
+    padding: 10px 3px;
+}
+
+.reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
