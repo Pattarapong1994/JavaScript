@@ -1,0 +1,21 @@
+.container{
+    font-family: 'Kanit', sans-serif;
+}
+
+.item-1{
+    background-color: rgb(246, 242, 242)
+}
+.boxitem{
+    display: inline-block;
+}
+
+
+.boxitem input{
+    width: 180px;
+    height: auto;
+    display: inline-block;
+}
+
+.bg-hidden {
+    background-color: none;
+}
